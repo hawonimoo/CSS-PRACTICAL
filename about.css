@@ -1,0 +1,26 @@
+body{
+    font-family:Arial, sans-serif;
+    background:#eef5ff;
+}
+
+.navigation{
+    background:blue;
+    padding:20px;
+}
+
+.nav-tabs{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+}
+
+.nav-tabs a{
+    color:white;
+    text-decoration:none;
+    padding:15px 25px;
+}
+
+.about{
+    text-align:center;
+    padding:100px 20px;
+}

@@ -1,0 +1,26 @@
+body{
+    font-family:Arial, sans-serif;
+    background:#f0fff0;
+}
+
+.navigation{
+    background:green;
+    padding:20px;
+}
+
+.nav-tabs{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+}
+
+.nav-tabs a{
+    color:white;
+    text-decoration:none;
+    padding:15px 25px;
+}
+
+.experience{
+    text-align:center;
+    padding:100px 20px;
+}
