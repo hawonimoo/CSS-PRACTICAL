@@ -1,23 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-family:Arial, sans-serif;
     background:#f0fff0;
 }
 
 .navigation{
-    background:green;
-    padding:20px;
+    background-color: blue;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 .nav-tabs{
-    display:flex;
-    justify-content:center;
-    list-style:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    list-style: none;
 }
 
-.nav-tabs a{
-    color:white;
-    text-decoration:none;
-    padding:15px 25px;
+.nav-tabs li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .experience{

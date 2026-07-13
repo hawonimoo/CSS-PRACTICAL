@@ -1,23 +1,31 @@
-body{
-    font-family:Arial, sans-serif;
-    background:#fff5ee;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .navigation{
-    background:darkred;
-    padding:20px;
+    background-color: blue;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 .nav-tabs{
-    display:flex;
-    justify-content:center;
-    list-style:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    list-style: none;
 }
 
-.nav-tabs a{
-    color:white;
-    text-decoration:none;
-    padding:15px 25px;
+.nav-tabs li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .contact{
@@ -33,7 +41,7 @@ textarea{
 
 button{
     padding:10px 20px;
-    background:darkred;
+    background:rgb(17, 19, 115);
     color:white;
     border:none;
 }

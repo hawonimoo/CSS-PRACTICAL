@@ -17,9 +17,6 @@ body{
     background-color: blue;
     height: 80px;
     width: 100%;
-    position: sticky;
-    position: relative;
-    position: absolute;
     position: fixed;
     top: 0;
 }
